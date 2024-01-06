@@ -9,7 +9,8 @@ This guide provides step-by-step instructions for integrating SonarQube into you
 ### Helm Chart Installation
 
 1. Add the SonarQube Helm repository:
-   ```
+
+```
 helm repo add sonarqube https://SonarSource.github.io/helm-chart-sonarqube
 helm repo update
 kubectl create namespace sonarqube-lts
